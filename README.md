@@ -17,7 +17,7 @@
 > ggvG=
 
 ### 라인이동
-> 숫자 입력후 shift+g 
+> 숫자 입력후 shift+g  
 > ex) 15 +shift+g
 
 <html> </html> 
