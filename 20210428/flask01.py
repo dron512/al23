@@ -9,13 +9,13 @@ app = Flask(__name__)
 @app.route("/HIGH/<int:pin>")
 def high(pin):
     GPIO.setup(pin,GPIO.OUT)
-    GPIO.out(pin,True)
+    GPIO.output(pin,True)
     return f"{pin} is high"
 
 @app.route("/LOW/<int:pin>")
 def low(pin):
     GPIO.setup(pin,GPIO.OUT)
-    GPIO.out(pin,False)
+    GPIO.output(pin,False)
     return f"{pin} is low"
 
 if __name__ == "__main__":
